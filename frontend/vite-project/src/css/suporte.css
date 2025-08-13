@@ -1,0 +1,113 @@
+/* Estilo geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do header */
+  .header-icon-text {
+    background-color: #f25081;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-text {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Título principal */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    font-size: 28px;
+  }
+  
+  /* Subtítulo */
+  h3 {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.5;
+    padding: 0 20px;
+  }
+  
+  /* Contato WhatsApp */
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  span {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Botão Enviar Mensagem */
+  button {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 12px;
+    background-color: #25D366;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #128C7E;
+  }
+  
+  /* Estilo do footer e ícones */
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .footer-buttons svg {
+    width: 24px;
+    height: 24px;
+    fill: #F25081;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-buttons button:hover svg {
+    transform: scale(1.1);
+  }
+  
